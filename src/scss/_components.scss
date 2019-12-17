@@ -48,4 +48,9 @@
         grid-template-columns: 1.5fr 1fr 1fr;
         grid-template-rows: repeat(3, 16.75rem);
     }
+    &__text{
+        font-weight: 300;
+        font-size: 1.25rem;
+        line-height: 2.25rem;
+    }
 }
