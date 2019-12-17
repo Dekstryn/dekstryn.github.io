@@ -29,4 +29,14 @@
         line-height: 3rem;
         border-bottom: solid rgb(154, 113, 151);
     }
+    &__section-header{
+        font-weight: 600;
+        font-size: 2rem;
+        line-height: 2.75rem;
+    }
+    &__list{
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 2.5rem;
+    }
 }
