@@ -95,4 +95,10 @@
         font-size: 20px;
         line-height: 36px;
     }
+    &__email{
+        font-weight: 500;
+        font-size: 1.25rem;
+        line-height: 2rem;
+        color: $yellow;
+    }
 }
