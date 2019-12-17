@@ -12,9 +12,8 @@ html {
 }
 
 body {
-  display: block;
   background: $yellow;
-  width: 90rem;
+  max-width: 90rem;
   margin: .5rem;
   border: .5rem solid #171F3F;
   box-sizing: border-box;
