@@ -54,3 +54,18 @@
         line-height: 2.25rem;
     }
 }
+.portfolio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    &__box{
+        background-color: whitesmoke;
+        border-radius: 5%;
+        padding: 0.5rem;
+        width: calc(100% * (1/2) - 1rem);
+        min-width: 18.75rem;
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+}
