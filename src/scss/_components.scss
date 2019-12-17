@@ -23,6 +23,7 @@
 }
 .skills{
     margin: 6rem 8rem;
+
     &__header{
         font-weight: 600;
         font-size: 2.25rem;
@@ -33,10 +34,17 @@
         font-weight: 600;
         font-size: 2rem;
         line-height: 2.75rem;
+        margin-right: 0.5rem;
     }
     &__list{
         font-weight: 400;
         font-size: 1.125rem;
         line-height: 2.5rem;
+        padding-top: 3rem;
+    }
+    &__box{
+        display: grid;
+        grid-template-columns: 1.5fr 1fr 1fr;
+        grid-template-rows: repeat(3, 16.75rem);
     }
 }
