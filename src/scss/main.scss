@@ -11,5 +11,10 @@ html {
 }
 
 body {
+  display: block;
   background: $yellow;
+  width: 1440 px;
+  margin: 8px;
+  border: 8px solid #171F3F;
+  box-sizing: border-box;
 }
