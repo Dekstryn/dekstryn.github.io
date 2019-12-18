@@ -14,7 +14,7 @@ fetch('https://api.github.com/users/dekstryn/repos?sort=updates')
         if (!fork && i<4 && homepage){
           portfolio.innerHTML += `
           <div class="portfolio__box">
-          <img class="portfolio__img" src="../assets/img/github.png">
+          <img class="portfolio__img" src="../assets/img/github.png" alt="Github logo">
           <h4 class="portfolio__title">${name}</h4>
           <p class="portfolio__description">${description ? description : "Brak opisu"}</p>
           <footer class="portfolio__footer"><p class="portfolio__text">
