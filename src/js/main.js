@@ -9,16 +9,16 @@ fetch('https://api.github.com/users/dekstryn/repos?sort=updates')
   const repos = resp;
   let i = 0;
   for (const repo of repos) {
-      const {name, description, html_url, fork, clone_url} = repo;
+      const {name, description, homepage, fork, html_url} = repo;
       console.log(i);
-        if (!fork && i<4){
+        if (!fork && i<4 && homepage){
           portfolio.innerHTML += `
           <div class="portfolio__box">
           <img class="portfolio__img" src="../assets/img/github.png">
           <h4 class="portfolio__title">${name}</h4>
           <p class="portfolio__description">${description ? description : "Brak opisu"}</p>
           <footer class="portfolio__footer"><p class="portfolio__text">
-            <a href="${html_url}">Demo</a> | <a href="${clone_url}">GitHub</a></p>
+            <a href="${homepage}">Demo</a> | <a href="${html_url}">GitHub</a></p>
           </footer>
           </div>
           `;
