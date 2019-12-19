@@ -7,4 +7,14 @@
   body{
       border: 0rem;
   }
+  .header {
+    margin: 0.6rem 0.8rem;
+  &__title {
+    font-size: 1.5rem;
+    line-height: 2.0rem;
+  &__text {
+    font-size: 1.0rem;
+    line-height: 1.5rem;
+    }
+  }
 }
