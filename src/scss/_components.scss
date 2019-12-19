@@ -102,8 +102,7 @@
         color: $yellow;
         transition: all .2s;
         &:hover{
-        color: deepskyblue;
-        transform: scale(1.2);
+            color: deepskyblue;
         }
     }
     &__img{
