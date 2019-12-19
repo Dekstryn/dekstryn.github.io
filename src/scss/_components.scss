@@ -100,12 +100,32 @@
         font-size: 1.25rem;
         line-height: 2rem;
         color: $yellow;
+        transition: all .2s;
+        &:hover{
+        color: deepskyblue;
+        transform: scale(1.2);
+        }
+    }
+    &__img{
+        border-radius: 50%;
+        transition: all .2s;
+        &:hover{
+         transform: scale(1.2);
+        }
     }
 }
 .inside-link{
     text-decoration: none;
     color: darkblue;
+    transition: all .2s;
+    &:hover{
+        color: deepskyblue;
+    }
 }
 .header__email{
     color: darkblue;
+    transition: all .2s;
+    &:hover{
+        color: deepskyblue;
+    }
 }
