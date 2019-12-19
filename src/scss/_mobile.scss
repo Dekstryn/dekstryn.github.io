@@ -9,12 +9,29 @@
   }
   .header {
     margin: 0.6rem 0.8rem;
-  &__title {
-    font-size: 1.5rem;
-    line-height: 2.0rem;
-  &__text {
-    font-size: 1.0rem;
-    line-height: 1.5rem;
+    &__title {
+      font-size: 1.5rem;
+      line-height: 2.0rem;
     }
+    &__text {
+      font-size: 1.0rem;
+      line-height: 1.5rem;
+      }
+  }
+  .skills {
+    margin: 0.6rem 0.8rem;
+
+    &__box{
+      display: inline-block;
+    }
+    &__list{
+      padding-top: 0rem;
+    }
+  }
+  .portfolio__box{
+    min-width: 17.75rem;
+  }
+  .footer {
+    padding: 0.6rem 0.8rem;
   }
 }
