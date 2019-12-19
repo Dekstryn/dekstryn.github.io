@@ -1,6 +1,6 @@
 "use strict";
 
-console.log(`Hello, I'm glad that you looking heare. On this page I used some JS code to recent project section. `);
+console.log(`Hello, I'm glad that you looking here. On this page, I used some JS code for the projects section actualization.`);
 
 const portfolio = document.querySelector('.portfolio--js');
 fetch('https://api.github.com/users/dekstryn/repos?sort=updates')
@@ -10,7 +10,6 @@ fetch('https://api.github.com/users/dekstryn/repos?sort=updates')
   let i = 0;
   for (const repo of repos) {
       const {name, description, homepage, fork, html_url} = repo;
-      console.log(i);
         if (!fork && i<4 && homepage){
           portfolio.innerHTML += `
           <div class="portfolio__box">
