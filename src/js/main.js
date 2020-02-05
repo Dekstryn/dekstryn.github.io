@@ -3,7 +3,7 @@
 console.log(`Hello, I'm glad that you looking here. On this page, I used some JS code for the projects section actualization.`);
 
 const portfolio = document.querySelector('.portfolio--js');
-fetch('https://api.github.com/users/dekstryn/repos?sort=updates')
+fetch('https://api.github.com/users/krzysztofnyrek/repos?sort=updates')
 .then(resp => resp.json())
 .then(resp => {
   const repos = resp;
